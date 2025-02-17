@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>S&C Brothers - Alternativas ecológicas</title>
+    <link rel="stylesheet" href="./estilo.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header>
+        <div class="logo">S&C Brothers</div>
+        <nav>
+            <ul>
+                <li><a href="#" class="activo" onclick="mostrarSeccion('inicio')">Inicio</a></li>
+                <li><a href="#" onclick="mostrarSeccion('acerca')">Acerca de</a></li>
+                <li><a href="#" onclick="mostrarSeccion('clientes')">Clientes</a></li>
+                <li><a href="#" onclick="mostrarSeccion('contacto')">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="inicio" class="contenido">
+            <h1>Bienvenido a S&C Brothers</h1>
+            <p>Somos una empresa comprometida con el medio ambiente, especializada en la fabricación de productos desechables ecológicos. Nuestro objetivo es reemplazar el uso del icopor y el plástico con alternativas biodegradables y sostenibles.</p>
+            <img src="img/inicio.jpg" alt="Productos ecológicos desechables">
+        </section>
+
+        <section id="acerca" class="contenido oculto">
+            <h1>Acerca de Nosotros</h1>
+            <p>En S&C Brothers utilizamos materiales 100% biodegradables como el <strong>bagazo de caña de azúcar</strong>, la <strong>fécula de maíz</strong> y el <strong>cartón reciclado</strong> para producir envases y utensilios desechables. Nuestro compromiso es reducir la contaminación generada por plásticos de un solo uso.</p>
+            <img src="img/acerca.jpg" alt="Fabricación de productos ecológicos">
+        </section>
+
+        <section id="clientes" class="contenido oculto">
+            <h1>Nuestros Clientes</h1>
+            <p>Trabajamos con restaurantes, cafeterías, supermercados y empresas que buscan reducir su impacto ambiental utilizando empaques ecológicos. Nuestros productos garantizan resistencia y funcionalidad sin afectar el ecosistema.</p>
+            <img src="img/clientes.jpg" alt="Empresas que usan empaques ecológicos">
+        </section>
+
+        <section id="contacto" class="contenido oculto">
+            <h1>Contacto</h1>
+            <p>Si deseas conocer más sobre nuestros productos o hacer un pedido, contáctanos a través de:</p>
+            <p><strong>Email:</strong> contacto@scbrothers.com</p>
+            <p><strong>Teléfono:</strong> +57 320 456 7890</p>
+            <p><strong>Dirección:</strong> Calle 123 #45-67, Bogotá, Colombia</p>
+            <img src="img/contacto.jpg" alt="Formulario de contacto de S&C Brothers">
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 S&C Brothers. Alternativas ecológicas para un mundo mejor.</p>
+    </footer>
+</body>
+</html>
